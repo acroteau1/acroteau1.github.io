@@ -1,2 +1,3 @@
 # Code Review
-This site was built using [GitHub Pages](https://pages.github.com/)
+Introduction and Artifact One Review can be found [here](https://youtu.be/MNbDwvWprhM)
+Artifact Two Review can be found [here](https://youtu.be/ed9p4Jq6Fq0)
