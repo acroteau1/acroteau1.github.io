@@ -3,8 +3,11 @@ Introduction and Artifact One Review can be found [here](https://youtu.be/MNbDwv
 Artifact Two Review can be found [here](https://youtu.be/ed9p4Jq6Fq0).
 
 # Artifact One: Software Design and Engineering
-Click for [Original Project Code](https://github.com/acroteau1/IT-365-Operating-Environments).
-Click for [Modified Project Code](https://github.com/acroteau1/Operating-Environments).
+
+[Original Project Code](https://github.com/acroteau1/IT-365-Operating-Environments)
+
+[Modified Project Code](https://github.com/acroteau1/Operating-Environments)
+
 ## Description
 For this artifact, I worked on the “Operating Environments” project. This artifact was created during my time in IT-365: Operating Environments in late 2020. This program simulates the communication between a user’s web browser, the server, and the server response using several different classes and methods. Depending on the class, there are programs responsible for simulating a simple web server, returning header output, and mapping configuration parameters, among other functions.
 
