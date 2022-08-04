@@ -24,7 +24,7 @@ Artifact Two Review can be found [here](https://youtu.be/ed9p4Jq6Fq0).
 
 ## Description
 
-![My image](relative/path/to/ClientServer.JPG?raw=true "Title")
+<h4 align="center"><img src="./images/ClientServer.jpg" alt="Client-Server Relationship" height="300" width="400"></h4>
 
 For this artifact, I worked on the “Operating Environments” project. This artifact was created during my time in IT-365: Operating Environments in late 2020. This program simulates the communication between a user’s web browser, the server, and the server response using several different classes and methods. Depending on the class, there are programs responsible for simulating a simple web server, returning header output, and mapping configuration parameters, among other functions.
 
