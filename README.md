@@ -12,9 +12,22 @@
 
 ## Self Assessment
 
-# Code Review
+# Code Review and Refinement Plan
+
+## Software Design and Engineering
+The artifact that will be utilized for the software engineering and design category is the final project from IT-365: Operating Environments. This project is titled “Operating Environments”. This program simulates the communication between a user’s web browser, the server, and the server response. This will demonstrate my work in software engineering and design by demonstrating proficiency in writing, using, and altering Java as a programming language. My plan to enhance the program during CS-499 is to transfer this project into Python. This will further demonstrate proficiency with programming languages, and show proficiency in a language other than java. These enhancements will also demonstrate the ability to use object-oriented programming in more than one language. This aligns with the course outcome of CS-499-04, or the use of skills and techniques to apply valuable solutions and to meet the goals of production. 
+
+## Algorithms and Data Structures
+The artifact that will be used to demonstrate competence in algorithms and data structures is from CS-340: Advanced Programming Concepts. The name of this project is “Rescue Animal Database”. This project utilizes a database of animals to be searched through by a theoretical company for suitable candidates for a search-and-rescue program. This project will be improved by implementing a doubly-linked list when viewing an animal, allowing the user to select “next” and “previous” options when viewing an animal. This will allow them to scroll through options without needing to return to the entire list of returned results after performing a search. These enhancements will demonstrate a knowledge of data structures through the use of the linked list data structure. This also aligns with the course outcome CS-499-03, or the creation of solutions for a given problem using principles and practices of algorithms and computer science while managing design choices.
+
+## Databases
+The artifact that will be utilized to demonstrate proficiency in databases will be the “Rescue Animal Database” from CS-340: Advanced Programming Concepts. This project incorporated a database of animals and was primarily created for a theoretical company to be able to search through the database more efficiently. Currently, there exist files within a Jupyter Notebook that allow for automated tests to check for the ability to create, read, update, and delete data, as well as the database information. The program files are primarily written in Java. This program will be improved using advanced MySQL concepts that were not previously implemented into the program such as triggers. Triggers can be created to work with the implementations designed in category two of creating, updating, and deleting animals from the database. This will demonstrate proficiency in the MySQL language and advanced concepts. This will also align with the course outcome CS-499-04, or the ability to utilize skills and concepts to implement solutions. 
+
+## Code Review
+
 Introduction and Artifact One Review can be found [here](https://youtu.be/MNbDwvWprhM).  
 Artifact Two Review can be found [here](https://youtu.be/ed9p4Jq6Fq0).
+The code review is beneficial in examining the existing code and identifying where the modifications and enhancements will fit into the existing projects. In particular, the code review allows for a demonstration of knowledge of java, python, and mySQL by exploring how the code does what it says it does, and how it works in a larger framework of the final project. It will show working knowledge of algorithms, databases, and software design by showing findings of efficiency, comments, potential bugs, and potential improvements. The planned enhancements can be explained for where they fit into the code and how they will integrate with the existing code. The code review will assist with planning the enhancements and make implementation easier. 
 
 # Artifact One: Software Design and Engineering
 
