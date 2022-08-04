@@ -97,7 +97,7 @@ class test():
 ## Description
 The artifact for this milestone was the “Rescue Animal Database” project from CS-340: Advanced Programming Concepts. This artifact was created in late 2021. This project incorporated a database of animals and was primarily created for a theoretical company to be able to search through the database more efficiently. Currently, there exist files within a Jupyter Notebook that allow for automated tests to check for the ability to create, read, update, and delete data, as well as the database information. 
 
-```Jupyter Notebook
+```python
 # Create node class and initialize the node
 class Node:
     def __init__(self, data):
@@ -119,7 +119,7 @@ class Node:
 ## Justification
 This item was selected for inclusion within the ePortfolio because it is an item that held a lot of potential for improvement. The original project was relatively basic as far as design, implementation, and work within the database. This left a lot of room to come up with creative solutions to make the project work more fully as it was intended. In particular, this artifact allows me to showcase my skills and abilities in algorithms and data structures through the implementation of a doubly-linked list for search results, and the implementation of the tkinter method for clickable “next” and “previous” buttons. Neither of these methods were implemented in the original project nor were they utilized in any other coursework during my undergraduate studies. This demonstrates an ability to understand and implement data structures that are not familiar to me through independent research and testing. This artifact was improved through the use of the list and clickable buttons by enhancing the user experience. This improvement allows users to scroll through results without needing to return to the entire list of returned results after performing a search or performing a new search after viewing a single result. 
 
-```Jupyter Notebook
+```python
     # Create a 'next' function
     def nextNode(self, value):
         # Define current node and create results list
@@ -154,7 +154,7 @@ I met the course objectives that I planned to meet with this enhancement in Modu
 ## Reflection
 During the course of improving this project, I had to learn appropriate ways to create a doubly-linked list. The first challenge I faced was in this lesson, as I realized after writing the original method that I did not have a search function available to implement the data structure within. Then came the next lesson, determining how to implement a simple search function using radio buttons. I was also able to do this successfully, and was able to create a simple search option for either dogs or cats. Next, I had to learn and implement the tkinter method to enable clickable buttons, as well as figure out the dash code that would be required to place the buttons where I wanted them on the results. The end result is a cohesive design that meets the goals of the planned artifact improvement.
 
-```Jupyter Notebook
+```python
 def dashboard_results(filter_type):
     """Filter rescue dogs based on the rescue type."""
     if filter_type == 'Dog':
