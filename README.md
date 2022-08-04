@@ -107,6 +107,8 @@ During the course of improving this project, I had to learn appropriate ways to 
 
 # Artifact Three: Databases
 
+<h4 align="center"><img src="./images/Database.JPG" alt="Database" height="300" width="400"></h4>
+
 [Original Project Code](https://github.com/acroteau1/CS-340)
 
 [Modified Project Code]
