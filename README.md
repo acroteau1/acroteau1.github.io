@@ -26,7 +26,9 @@ The artifact that will be utilized to demonstrate proficiency in databases will 
 ## Code Review
 
 Introduction and Artifact One Review can be found [here](https://youtu.be/MNbDwvWprhM).  
+
 Artifact Two Review can be found [here](https://youtu.be/ed9p4Jq6Fq0).
+
 The code review is beneficial in examining the existing code and identifying where the modifications and enhancements will fit into the existing projects. In particular, the code review allows for a demonstration of knowledge of java, python, and mySQL by exploring how the code does what it says it does, and how it works in a larger framework of the final project. It will show working knowledge of algorithms, databases, and software design by showing findings of efficiency, comments, potential bugs, and potential improvements. The planned enhancements can be explained for where they fit into the code and how they will integrate with the existing code. The code review will assist with planning the enhancements and make implementation easier. 
 
 # Artifact One: Software Design and Engineering
