@@ -1,3 +1,17 @@
+# Professional Self Assessment
+
+## Collaborating in a Team Environment
+
+## Communicating to Stakeholders
+
+## Data Structures and Algorithms
+
+## Software Engineering and Databases
+
+## Security
+
+## Self Assessment
+
 # Code Review
 Introduction and Artifact One Review can be found [here](https://youtu.be/MNbDwvWprhM).  
 Artifact Two Review can be found [here](https://youtu.be/ed9p4Jq6Fq0).
@@ -35,3 +49,5 @@ I met the course objectives that I planned to meet with this enhancement in Modu
 
 ## Reflection
 During the course of improving this project, I had to learn appropriate ways to create a doubly-linked list. The first challenge I faced was in this lesson, as I realized after writing the original method that I did not have a search function available to implement the data structure within. Then came the next lesson, determining how to implement a simple search function using radio buttons. I was also able to do this successfully, and was able to create a simple search option for either dogs or cats. Next, I had to learn and implement the tkinter method to enable clickable buttons, as well as figure out the dash code that would be required to place the buttons where I wanted them on the results. The end result is a cohesive design that meets the goals of the planned artifact improvement.
+
+#Artifact Two: Databases
