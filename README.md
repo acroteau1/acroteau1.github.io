@@ -97,6 +97,25 @@ class test():
 ## Description
 The artifact for this milestone was the “Rescue Animal Database” project from CS-340: Advanced Programming Concepts. This artifact was created in late 2021. This project incorporated a database of animals and was primarily created for a theoretical company to be able to search through the database more efficiently. Currently, there exist files within a Jupyter Notebook that allow for automated tests to check for the ability to create, read, update, and delete data, as well as the database information. 
 
+```Jupyter Notebook
+# Create node class and initialize the node
+class Node:
+    def __init__(self, data):
+        self.item = data
+        self.next = None
+        self.prev = None
+    # Create doubly linked list class
+    def __init__(self):
+        self.start_node = None
+    # Insert Element to Empty list
+    def InsertToEmptyList(self, data):
+        if self.start_node is None:
+            new_node = Node(data)
+            self.start_node = new_node
+        else:
+            print("The linked list is not empty.")
+```
+
 ## Justification
 This item was selected for inclusion within the ePortfolio because it is an item that held a lot of potential for improvement. The original project was relatively basic as far as design, implementation, and work within the database. This left a lot of room to come up with creative solutions to make the project work more fully as it was intended. In particular, this artifact allows me to showcase my skills and abilities in algorithms and data structures through the implementation of a doubly-linked list for search results, and the implementation of the tkinter method for clickable “next” and “previous” buttons. Neither of these methods were implemented in the original project nor were they utilized in any other coursework during my undergraduate studies. This demonstrates an ability to understand and implement data structures that are not familiar to me through independent research and testing. This artifact was improved through the use of the list and clickable buttons by enhancing the user experience. This improvement allows users to scroll through results without needing to return to the entire list of returned results after performing a search or performing a new search after viewing a single result. 
 
