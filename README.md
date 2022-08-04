@@ -88,6 +88,8 @@ class test():
 
 # Artifact Two: Algorithms and Data Structures
 
+<h4 align="center"><img src="./images/DataStructures.jpg" alt="Data Structures" height="300" width="400"></h4>
+
 [Original Project Code](https://github.com/acroteau1/CS-340)
 
 [Modified Project Code](https://github.com/acroteau1/Search-and-Rescue-Dashboard)
