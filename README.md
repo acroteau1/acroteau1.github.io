@@ -119,10 +119,59 @@ class Node:
 ## Justification
 This item was selected for inclusion within the ePortfolio because it is an item that held a lot of potential for improvement. The original project was relatively basic as far as design, implementation, and work within the database. This left a lot of room to come up with creative solutions to make the project work more fully as it was intended. In particular, this artifact allows me to showcase my skills and abilities in algorithms and data structures through the implementation of a doubly-linked list for search results, and the implementation of the tkinter method for clickable “next” and “previous” buttons. Neither of these methods were implemented in the original project nor were they utilized in any other coursework during my undergraduate studies. This demonstrates an ability to understand and implement data structures that are not familiar to me through independent research and testing. This artifact was improved through the use of the list and clickable buttons by enhancing the user experience. This improvement allows users to scroll through results without needing to return to the entire list of returned results after performing a search or performing a new search after viewing a single result. 
 
+```Jupyter Notebook
+    # Create a 'next' function
+    def nextNode(self, value):
+        # Define current node and create results list
+        currentNode = self.head
+        results = []
+        # Set currentNode to the next node value
+        currentNode = currentNode.next
+        # Add currentNode to the results list
+        while currentNode is not None:
+            if currentNode.has_value(value):
+                results.append(currentNode)
+        # Output next node
+        return results
+    
+    # Create a 'previous' function
+    def prevNode(self, value):
+        # Define current node and create results list
+        currentNode = self.head
+        results = []
+        # Set currentNode to the prev node value
+        currentNode = currentNode.prev
+        # Add currentNode to the results list
+        while currentNode is not None:
+            if currentNode.has_value(value):
+                results.append(currentNode)
+        # Output prev node
+        return results
+```
+
 I met the course objectives that I planned to meet with this enhancement in Module One by creating a working code that implemented the changes that were planned earlier on. In particular, I was able to create several classes that encompassed the purpose and execution of a doubly-linked list. I also needed to add a section that would filter results by animal type, and a section to search based on the selected filter. Then, I was able to call those classes at the appropriate part of the code that returned results. Finally, I was able to adjust the code to include the “next” and “previous” buttons, which referenced corresponding nodes in the doubly-linked list classes. As far as the course outcomes, I was able to meet the outcome CS-499-03 which encompasses the creation of solutions for a given problem using principles and practices of algorithms and computer science while managing design choices. Overall, I would say that outcome-coverage plans expanded based on what I had originally planned, as I realized my original files did not have a search function available, and that without that function, I would not be able to implement this data structure. 
 
 ## Reflection
 During the course of improving this project, I had to learn appropriate ways to create a doubly-linked list. The first challenge I faced was in this lesson, as I realized after writing the original method that I did not have a search function available to implement the data structure within. Then came the next lesson, determining how to implement a simple search function using radio buttons. I was also able to do this successfully, and was able to create a simple search option for either dogs or cats. Next, I had to learn and implement the tkinter method to enable clickable buttons, as well as figure out the dash code that would be required to place the buttons where I wanted them on the results. The end result is a cohesive design that meets the goals of the planned artifact improvement.
+
+```Jupyter Notebook
+def dashboard_results(filter_type):
+    """Filter rescue dogs based on the rescue type."""
+    if filter_type == 'Dog':
+        df = pd.DataFrame.from_records(shelter.filtered_rescue_dogs("Dog"))
+        # Insert the resulting elements into the linked list
+        df.InsertToEnd()
+        # Assign node next and previous values to iterations of the results
+        df.next = n.next
+        df.prev = n.prev
+        # Create next and previous buttons
+        nextButton = Button(master, text = 'Next', command = Node.nextNode)
+        button.pack()
+        mainloop()
+        prevButton = Button(master, text = 'Previous', command = Node.prevNode)
+        button.pack()
+        mainloop()
+```
 
 # Artifact Three: Databases
 
