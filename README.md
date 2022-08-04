@@ -184,10 +184,47 @@ def dashboard_results(filter_type):
 ## Description
 The artifact selected for this portion of the portfolio is CS-340: Advanced Programming Concepts’ “Rescue Animal Database” project. This artifact was created in late 2021, and enhanced as an earlier portion of the ePortfolio. This project utilizes a database of animals to be searched through by a theoretical company for suitable candidates for a search-and-rescue program. So far, it has been improved to create a doubly-linked list of search results, and clickable buttons to move from one result to the next, or previous, result. 
 
+```python
+    # Insert a document into the database
+    if username == "aacuser":
+        if self.database.animals.insert_one(data):
+            return True
+            print("Animal has been added to the database.")
+        else:
+            raise Exception("Unable to create animal.")
+    else:
+        raise Exception("Invalid user type.")
+```
+
 ## Justification
 This item was selected for inclusion in the ePortfolio because the final version of the project used in the class still left a lot to be desired as far as functionality and potential features within the program. The final project featured a working database and dashboard, but was limited as far as search ability, display, security, and meaningful features. This artifact allows me to showcase my skills and abilities when working with databases through the implementation of triggers when performing certain actions within the database. Triggers have not been utilized previously in my undergraduate studies, demonstrating the ability to research, understand, and properly implement new concepts into my work. This artifact was improved first through the creation of methods to add a new animal to the database, edit an existing animal within the database, and delete an existing animal from the database. To address security problems with these features, I added in a check for the user type when performing these actions. Then, a table was created within the database to record the changes detected by triggers, which would insert a copy of the new animal information or record the old information of the entry. It would also record the type of change made to the entry, when the change occurred, and what user performed the change. This would be useful in creating an audit trail for the database as well as a record of previous information of entries in case a mistake is made and previous information must be restored. 
 
+```python
+# Update an animal with a return value of an object
+def updateAnimal(self, search_data: dict, update_data: dict) -> object:
+    update_data = {"$set":update_data}
+    # Confirm that data is present
+    if search_data and update_data:
+        check = list(self.database.animals.find(search_data))
+        # Check if the search data is in the database
+        if check:
+            if username == "aacuser":
+                result = self.database.animals.update_many(search_data, update_data)
+                return result
+                print("Database entry has been updated.")
+            else:
+                raise Exception("Invalid user type.")
+        else:
+            raise Exception("There are no matching entries in the database.")
+    else:
+        raise Exception("Invalid search criteria.")
+```
+
 I met the Module One course objectives I planned to meet with this enhancement and more. I planned to meet CS-499-04, or the ability to utilize skills and concepts to implement solutions. I was able to create and implement functions to make changes to the database, as well as triggers to record when those changes are made and capture what those changes are in a table that can later be accessed and referenced. The code functions as intended and runs without bugs. I am also able to update my outcome-coverage plans by also touching on CS-499-05, which involves developing a security mindset in the work on my final project. I was able to do this by creating a clause that would check the permissions of the user and print an error message if they did not have the appropriate clearance to be making changes to the database. 
+
+<h4 align="center"><img src="./images/sql1.JPG" alt="SQL Queries" height="300" width="400"></h4>
 
 ## Reflection
 The process of enhancing and modifying the artifact taught me several lessons as well as presented several challenges. First, the process of using triggers taught me what they were, how they worked, and how to implement them into my project. I also was able to learn more about utilizing SQL to interact with the database in the process, as I first erroneously thought I would be able to program the triggers into the python code. It seems like there are some methods of doing this, but not in the way I originally planned to execute the enhancement, so I worked through several tutorials with triggers to gain confidence before implementing them into my project. This worked out well, and the SQL queries worked as intended. I was eventually able to navigate recording the user making the changes into the table capturing the change by creating and declaring a username variable, then setting the results of the user() function into that variable, and finally inserting that variable into the table for the user performing the action. Another challenge that was encountered was how to validate which users are allowed to make changes to the database. For the time being, I set a function that only a username of the main user of the database is allowed to make changes to the database. If additional users are added, they will need to either be added to the acceptable username function, or the code will need to be adjusted to specifically reference user access levels. Overall, the final product meets the intended goals of the enhancement, and opens the project up to additional opportunities for improvement and advanced functionality.
+
+<h4 align="center"><img src="./images/sql2.JPG" alt="SQL Queries 2" height="300" width="400"></h4>
