@@ -40,8 +40,6 @@ db.createUser({user : “admin”, pwd : passwordPrompt(), roles: [{role : “us
 mongo –authenticationDatabase “admin” -u “admin” -p 
 ```
 
-<h4 align="center"><img src="./images/security.jpg" alt="Collaboration" height="300" width="400"></h4>
-
 ## Self Assessment
 
 <h4 align="center"><img src="./images/assessment.png" alt="Assessment" height="300" width="400"></h4>
