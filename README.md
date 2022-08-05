@@ -30,7 +30,7 @@ Software engineering began early in the degree program by teaching the fundament
 
 I have also interacted extensively with databases as a part of my studies, and it is an area I am particularly passionate about. I took my first course at the Massachusetts College of Liberal Arts, in a course called “Database Development”. This course taught the basics of SQL and how to interact with databases and database environments. I went on to continue to utilize these skills in several other courses of my undergraduate program, including CS-340: Client and Server Development. This course had me regularly interacting with a database of rescued animals and developing a mindset for working with a relational database and improving and simplifying interactions with the database. Multiple other courses taught other aspects of databases, including utilizing NoSQL to interact with them rather than SQL as well as refining queries. My work with databases has solidified my understanding of the involved programming languages and provided skills in writing queries, analyzing data, and navigating database software. 
 
-<h4 align="center"><img src="./images/databases.jpg" alt="Collaboration"></h4>
+<h4 align="center"><img src="./images/databases.jpg" alt="Databases"></h4>
 
 ## Security
 I was able to refine my security mindset and skills in CS-340: Client and Server Development. CS-340 was really my first dive into security outside of learning basic hash functions in Discrete Mathematics. One of our first tasks was to create a user with administrative rights to the database we would be working with by defining roles and rights for the user. Then, we created an authentication scheme for the database. I was also able to identify security vulnerabilities to the database in this course, such as users being able to read and write in the database, which was not separate from administrator rights. While it worked for the purpose of the class, this was a critical vulnerability for the database were it to be accessed as a live program. Overall, it assisted me in learning how to identify security features and vulnerabilities, which I would then go on to improve during enhancements created for this portfolio.
@@ -40,7 +40,11 @@ db.createUser({user : “admin”, pwd : passwordPrompt(), roles: [{role : “us
 mongo –authenticationDatabase “admin” -u “admin” -p 
 ```
 
+<h4 align="center"><img src="./images/security.jpg" alt="Collaboration"></h4>
+
 ## Self Assessment
+
+<h4 align="center"><img src="./images/assessment.png" alt="Assessment"></h4>
 
 # Code Review and Refinement Plan
 
