@@ -1,4 +1,4 @@
-# Professional Self Assessment
+# Alison Croteau - Professional Self Assessment
 
 My time in the Computer Science program at Southern New Hampshire University has been invaluable. Completing coursework throughout the program and developing an ePortfolio has assisted in showcasing my strengths by creating projects that demonstrate my skills and abilities with various programming languages, advanced programming concepts, and object-oriented programming and design. I have been able to shape my professional goals and find a passion for data science and database management that I would not have otherwise discovered on my own. It has also prepared me to enter the computer science field by building these skills and abilities from the ground up, and shaping and refining them into what they have become today. These skills and abilities will serve as a foundation as I enter the workforce and continue to build and refine these skills into a greater pool of knowledge. 
 
