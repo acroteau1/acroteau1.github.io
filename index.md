@@ -1,24 +1,36 @@
-# Professional Self Assessment
+# Alison Croteau - Professional Self Assessment
 
 My time in the Computer Science program at Southern New Hampshire University has been invaluable. Completing coursework throughout the program and developing an ePortfolio has assisted in showcasing my strengths by creating projects that demonstrate my skills and abilities with various programming languages, advanced programming concepts, and object-oriented programming and design. I have been able to shape my professional goals and find a passion for data science and database management that I would not have otherwise discovered on my own. It has also prepared me to enter the computer science field by building these skills and abilities from the ground up, and shaping and refining them into what they have become today. These skills and abilities will serve as a foundation as I enter the workforce and continue to build and refine these skills into a greater pool of knowledge. 
+
+<h4 align="center"><img src="./images/SelfAssessment.png" alt="Self Assessment" height="300" width="400"></h4>
 
 ## Collaborating in a Team Environment
 
 Collaboration is an incredible skill that is useful in a variety of contexts. Outside of school, I have utilized collaboration in the workplace, from retail spaces to the pharmaceutical Quality Assurance position I hold currently. Collaboration within a team helps everyone progress towards an overall goal, and that is true both in the workplace and within our schoolwork. One course I took that demonstrated collaboration in a team environment was CS-310: Collaboration and Team Project. During the course of this project, the entire class utilized a project space to write code together, including utilizing pull requests, push requests, and utilizing version control. This came with a number of challenges, including merge conflicts, which needed communication and problem solving to effectively navigate. One way we managed to navigate these challenges was by utilizing the classroom discussion boards to discuss errors and bugs, and how to combat them to prevent them from making their way into the master file. We also utilized peer code review to identify problems with the code being submitted by others and help them come to an appropriate solution. Overall, the course provided many great lessons in how to utilize git commands and work with others in a professional coding environment to maximize our efficiency and productivity. 
 
+<h4 align="center"><img src="./images/Collab.jpg" alt="Collaboration" height="300" width="400"></h4>
+
 ## Communicating to Stakeholders
 
 Communicating with stakeholders is critical to ensuring that business and client needs are being met through our daily operations. In my current position at Berkshire Sterile Manufacturing, I communicate directly with clients to ensure that their needs are being met and that their questions are answered as we navigate the process of manufacturing their products. I also meet with management to discuss metrics and processes, determine bottlenecks, and assist with process improvements to enhance efficiency. Additionally, when I took CS-250: Software Development Lifecycle, I was able to learn the premises of project management. In particular, I learned the value of different roles and practices in an agile methodology, such as a daily standup organized by the scrum master. This meeting allows the team to meet at a designated time to discuss where they are on their projects, any difficulties they are facing, and leads to overall improved process flow. Communication with stakeholders allows for everyone to be aware of objectives and hurdles, and helps the overall team reach their goals within the projected time frame. 
+
+<h4 align="center"><img src="./images/Communication.jpg" alt="Communication" height="300" width="400"></h4>
 
 ## Data Structures and Algorithms
 
 My experience with data structures and algorithms began outside of Computer Science, when I took MAT-230: Discrete Mathematics. Though I did not know it at the time, a lot of the concepts taught in this course, including relations, matrices, and hashes would lay the foundation for concepts that would later be taught in courses that focused on teaching data structures and algorithms. I would then encounter many of these concepts again in CS-260: Data Structures and Algorithms. In this course, we worked with stacks, queues, hash tables, and binary trees, among other data structures, to work directly with the data structures that had been taught as a foundation in Discrete Mathematics. These foundational courses continued to be refined and built upon in more advanced courses until it became easy to implement data structures and algorithms, even when the concept was new. 
 
+<h4 align="center"><img src="./images/algorithm.png" alt="Algorithms" height="300" width="400"></h4>
+
 ## Software Engineering and Databases
 
 Software engineering began early in the degree program by teaching the fundamentals of several programming languages. Through several courses, I became familiar with the foundations of Java, Python, SQL, C++, and NoSQL. Through learning these languages, I was able to work on several different kinds of programming projects. My work in CS-330: Computational Graphics and Visualization allowed me to use C++ to create a 3D scene based on an image captured of the desk I perform my work on, along with several objects on the desk itself. I used Python in IT-450: Artificial Intelligence to enhance the decision making skills of an AI program designed to play checkers with a human player. I also utilized Java in IT-365: Operating Environments to create a functioning client-server relationship utilizing sockets, ports, and HTTP configurations. Overall, I have gained both skills and confidence in several different programming languages as part of the software engineering portion of this degree program.
 
+<h4 align="center"><img src="./images/engineering.jpg" alt="Engineering" height="300" width="400"></h4>
+
 I have also interacted extensively with databases as a part of my studies, and it is an area I am particularly passionate about. I took my first course at the Massachusetts College of Liberal Arts, in a course called “Database Development”. This course taught the basics of SQL and how to interact with databases and database environments. I went on to continue to utilize these skills in several other courses of my undergraduate program, including CS-340: Client and Server Development. This course had me regularly interacting with a database of rescued animals and developing a mindset for working with a relational database and improving and simplifying interactions with the database. Multiple other courses taught other aspects of databases, including utilizing NoSQL to interact with them rather than SQL as well as refining queries. My work with databases has solidified my understanding of the involved programming languages and provided skills in writing queries, analyzing data, and navigating database software. 
+
+<h4 align="center"><img src="./images/databases.jpg" alt="Databases" height="300" width="400"></h4>
 
 ## Security
 I was able to refine my security mindset and skills in CS-340: Client and Server Development. CS-340 was really my first dive into security outside of learning basic hash functions in Discrete Mathematics. One of our first tasks was to create a user with administrative rights to the database we would be working with by defining roles and rights for the user. Then, we created an authentication scheme for the database. I was also able to identify security vulnerabilities to the database in this course, such as users being able to read and write in the database, which was not separate from administrator rights. While it worked for the purpose of the class, this was a critical vulnerability for the database were it to be accessed as a live program. Overall, it assisted me in learning how to identify security features and vulnerabilities, which I would then go on to improve during enhancements created for this portfolio.
@@ -29,6 +41,8 @@ mongo –authenticationDatabase “admin” -u “admin” -p
 ```
 
 ## Self Assessment
+
+<h4 align="center"><img src="./images/assessment.png" alt="Assessment" height="300" width="400"></h4>
 
 # Code Review and Refinement Plan
 
@@ -42,6 +56,8 @@ The artifact that will be used to demonstrate competence in algorithms and data 
 The artifact that will be utilized to demonstrate proficiency in databases will be the “Rescue Animal Database” from CS-340: Client and Server Development. This project incorporated a database of animals and was primarily created for a theoretical company to be able to search through the database more efficiently. Currently, there exist files within a Jupyter Notebook that allow for automated tests to check for the ability to create, read, update, and delete data, as well as the database information. The program files are primarily written in Java. This program will be improved using advanced MySQL concepts that were not previously implemented into the program such as triggers. Triggers can be created to work with the implementations designed in category two of creating, updating, and deleting animals from the database. This will demonstrate proficiency in the MySQL language and advanced concepts. This will also align with the course outcome CS-499-04, or the ability to utilize skills and concepts to implement solutions. 
 
 ## Code Review
+
+<h4 align="center"><img src="./images/codereview.png" alt="Code Review"></h4>
 
 Introduction and Artifact One Review can be found [here](https://youtu.be/MNbDwvWprhM).  
 
