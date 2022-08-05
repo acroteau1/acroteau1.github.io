@@ -57,6 +57,8 @@ The artifact that will be utilized to demonstrate proficiency in databases will 
 
 ## Code Review
 
+<h4 align="center"><img src="./images/codereview.png" alt="Code Review" height="300" width="400"></h4>
+
 Introduction and Artifact One Review can be found [here](https://youtu.be/MNbDwvWprhM).  
 
 Artifact Two Review can be found [here](https://youtu.be/ed9p4Jq6Fq0).
