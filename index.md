@@ -1,9 +1,5 @@
 # Alison Croteau - Professional Self Assessment
 
-My time in the Computer Science program at Southern New Hampshire University has been invaluable. Completing coursework throughout the program and developing an ePortfolio has assisted in showcasing my strengths by creating projects that demonstrate my skills and abilities with various programming languages, advanced programming concepts, and object-oriented programming and design. I have been able to shape my professional goals and find a passion for data science and database management that I would not have otherwise discovered on my own. It has also prepared me to enter the computer science field by building these skills and abilities from the ground up, and shaping and refining them into what they have become today. These skills and abilities will serve as a foundation as I enter the workforce and continue to build and refine these skills into a greater pool of knowledge. 
-
-<h4 align="center"><img src="./images/SelfAssessment.png" alt="Self Assessment" height="300" width="400"></h4>
-
 ## Collaborating in a Team Environment
 
 Collaboration is an incredible skill that is useful in a variety of contexts. Outside of school, I have utilized collaboration in the workplace, from retail spaces to the pharmaceutical Quality Assurance position I hold currently. Collaboration within a team helps everyone progress towards an overall goal, and that is true both in the workplace and within our schoolwork. One course I took that demonstrated collaboration in a team environment was CS-310: Collaboration and Team Project. During the course of this project, the entire class utilized a project space to write code together, including utilizing pull requests, push requests, and utilizing version control. This came with a number of challenges, including merge conflicts, which needed communication and problem solving to effectively navigate. One way we managed to navigate these challenges was by utilizing the classroom discussion boards to discuss errors and bugs, and how to combat them to prevent them from making their way into the master file. We also utilized peer code review to identify problems with the code being submitted by others and help them come to an appropriate solution. Overall, the course provided many great lessons in how to utilize git commands and work with others in a professional coding environment to maximize our efficiency and productivity. 
@@ -42,7 +38,18 @@ mongo –authenticationDatabase “admin” -u “admin” -p
 
 ## Self Assessment
 
+<h4 align="center"><img src="./images/SelfAssessment.png" alt="Self Assessment" height="300" width="400"></h4>
+
+My time in the Computer Science program at Southern New Hampshire University has been invaluable. Completing coursework throughout the program and developing an ePortfolio has assisted in showcasing my strengths by creating projects that demonstrate my skills and abilities with various programming languages, advanced programming concepts, and object-oriented programming and design. I have been able to shape my professional goals and find a passion for data science and database management that I would not have otherwise discovered on my own. It has also prepared me to enter the computer science field by building these skills and abilities from the ground up, and shaping and refining them into what they have become today. These skills and abilities will serve as a foundation as I enter the workforce and continue to build and refine these skills into a greater pool of knowledge. 
+
+## Introduction
+
 <h4 align="center"><img src="./images/assessment.png" alt="Assessment" height="300" width="400"></h4>
+
+The artifacts below include three enhancements across two different projects to showcase the skills and expertise that I gained during my undergraduate studies at Southern New Hampshire University. The first project is a simple client-server application that simulates communication between a client’s web browser, the server, and shows the server’s responses. I enhanced this project by translating it into Python, another object-oriented programming language. This project demonstrated my competency in software design and engineering by showcasing my ability to understand the purpose of the source code, find similar methods, classes, and functions in a different programming language, and successfully implement that code to create a new project that functions the same as the original project.
+
+The second project is a database of animals made for a theoretical company to search for search-and-rescue animal candidates. I first enhanced this project by enhancing the search capabilities within the database. I created a simple search option to filter results, then created a linked list for the results. From those linked list entries, I created buttons that could be interacted with to more easily go through all of the results. I then enhanced this project again by using SQL to introduce a table to track changes made to the database, and working triggers to automatically populate the table with those changes. This project demonstrated my competencies in data structures, algorithms, and databases through my implementation of the linked list data structure and the triggers. The sections below outline the specific changes made in each project as well as the process behind each enhancement, and the lessons learned during the process.
+
 
 # Code Review and Refinement Plan
 
